@@ -30,11 +30,11 @@ A clean, responsive, and interactive To-Do List web application built using **HT
 ---
 
 ## 🧩 Folder Structure
-project/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+project/  
+├── index.html  
+├── style.css  
+├── script.js  
+└── README.md  
 
 ## 🔗 Live Demo
 
