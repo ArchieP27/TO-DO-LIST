@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>To-Do List</h1>
+        <form id="todo-form">
+            <input type="text" id="task" placeholder="Add a new task" required>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    <div class="list-display">
+        <h1>Your To-Do List</h1>
+        <table id="todo-table">
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Actions</th>
+                    <th>Remove Task</th>
+                </tr>
+            </thead>
+            <tbody id="todo-list">
+            </tbody>
+    </div>
+</body>
+</html>

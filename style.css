@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ancizar Sans', sans-serif;
+    background-color: #f0f0f0;
+}
+.header{
+    text-align: center;
+    background-color: rgb(136, 231, 199);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+.header h1{
+    font-size: 3rem;
+}
+#todo-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+#task{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.header button{
+    border-radius: 10px;
+    padding: 10px;
+    width: 18%;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(40, 188, 104);
+    border: none;
+}
+.header button:hover{
+    background-color: rgb(20, 150, 80);
+    color: white;
+}
+
+.list-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(106, 206, 206);
+    border-radius: 10px;
+    padding: 10px 20px 20px;
+}
+.list-display h1{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+#todo-table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid green;
+}
+#todo-table th, #todo-table td{
+    border: 1px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+#todo-table button{
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.complete-button:hover{
+    background-color: rgb(20, 150, 80);
+    color: white;
+}
+.delete-button:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
